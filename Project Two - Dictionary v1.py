@@ -1,17 +1,19 @@
+
+
 ow_heros = {
-'tracer' : {
-    'dps' : 3,
-    'speed' : "fast",
-    },
-'roadhog' : {
-    'dps' : 250,
-    'speed' : "slow",
-    },
-'bastion' : {
-    'dps' : 9999,
-    'speed' : "none",
-    },
-}
+    'tracer' : {
+        'dps' : 3,
+        'speed' : "fast",
+        },
+    'roadhog' : {
+        'dps' : 250,
+        'speed' : "slow",
+        },
+    'bastion' : {
+        'dps' : 9999,
+        'speed' : "none",
+        },
+    }
 
 
 is_on = True
@@ -40,10 +42,14 @@ def add_up():
 
     show_hero()
 
+print("-------------------------------------------")
+print("           WELCOME, JEFF KAPLAN")
+print("-------------------------------------------")
+
 
 while is_on:
     # This asks for input on what to do next
-    doing = input("\nWhat whould you like to do? (a)dd, (r)emove, (u)pdate, or show heros? or (e)xit ")
+    doing = input("\nWhat whould you like to do?\n(a)dd, (r)emove, (u)pdate, or show heros? or (e)xit ")
 
     do_low_str = doing.lower().strip()[0]
 
@@ -66,10 +72,6 @@ while is_on:
         add_up()
 
 """NOTE: Adding heroes and removing heroes do the EXACT same thing"""
-
-
-
-"""Testing this github thing-a-majig"""
 
 
 
