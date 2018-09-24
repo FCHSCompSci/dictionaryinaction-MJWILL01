@@ -1,3 +1,7 @@
+"""Python Dictionary - Overwatch heroes
+Mark Williams
+9-24-18"""
+
 import time
 import webbrowser
 
@@ -154,7 +158,8 @@ def full_code():
         
             except:
                 error_input()
-
+        if low_str == "e":
+            break
 
 
 while True:
